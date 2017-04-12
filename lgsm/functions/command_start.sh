@@ -62,13 +62,13 @@ fn_start_tmux(){
 	then
 		tmux_x=${tmux_width}
 	else
-		tmux_x=80
+		tmux_x=104
 	fi
 	if [[ ${tmux_height} =~ ^[0-9]+$ ]]
 	then
 		tmux_y=${tmux_height}
 	else
-		tmux_y=23
+		tmux_y=30
 	fi
 
 	# Log rotation
